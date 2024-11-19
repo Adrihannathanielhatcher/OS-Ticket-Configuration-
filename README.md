@@ -101,31 +101,39 @@ Here is the [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6Ezd
 ![image](https://github.com/user-attachments/assets/24498a28-eeef-42b6-9af3-774840a70c54)
 ![image](https://github.com/user-attachments/assets/f61fdb68-7f47-4d72-919e-af64147d9827)
 
-10. Open IIS as an Admin/Register PHP from within IIS, Open PHP Manager->Register new PHP ENTER: C:->PHP->php-cgi.exe. Now restart the server.
+10. Open IIS as an Admin/Register PHP from within IIS, follow the below example to reload IIS.
+
+Open PHP Manager->Register new PHP ENTER: C:->PHP->php-cgi.exe. Now restart the server.
 Reload IIS (Open IIS, Stop and Start the server)
 
 ![image](https://github.com/user-attachments/assets/f5fdb55f-0f4c-4429-a9f8-3382a495ddc2)
 
-Install osTicket v1.15.8 / unzip osTicket v1.15.8. and copy the “upload” folder into “c:\inetpub\wwwroot” Once completed restart the server.
+11. Install osTicket v1.15.8 / unzip osTicket v1.15.8. and copy the “upload” folder into “c:\inetpub\wwwroot” Once completed restart the server.
 ![image](https://github.com/user-attachments/assets/bd7b5170-c03a-45a8-a087-29cc263f9127)
 ![image](https://github.com/user-attachments/assets/324c8f37-55a4-4605-881d-aa4a062d46d3)
 
-11. Once the server has been restarted, we can download the necessary extension to get OS Ticket to run. Foll0w the below steps in (IIS) to enable the extensions.
+12. Once the server has been restarted, we can download the necessary extension to get OS Ticket to run. Foll0w the below steps in (IIS) to enable the extensions.
 
 IIS > OS Ticket > PHP Manager>Enable extensions: php_opcache.dil, phpImap.dll, phpintl.dll. Refresh the osTicket tab in your Internet Explorer.
 
 ![image](https://github.com/user-attachments/assets/808f107c-9b32-4556-b36b-7051a08fb53c)
 
-12. Next rename the file "Ostsampleconfig" to "Ost-config". Follow the example below to find the necessary file. 
+13. Next rename the file "Ostsampleconfig" to "Ost-config". Follow the example below to find the necessary file. 
 
 Browse > wwwroot > include > Ostsampleconfig
 
 ![image](https://github.com/user-attachments/assets/c572d85c-89e4-476b-9796-ecf9fc89d54d)
 
-13. In "ost-config" we will follow the below example to remove permissions.
+14. In "ost-config" we will follow the below example to remove permissions.
 
 Open properties > security > advanced > disable inheritance > remove all permissions > then select everyone & apply
 
 ![image](https://github.com/user-attachments/assets/cb8795a4-1b4b-4f7d-9903-a9638f7a2ce8)
 
-Download/install heidi from this [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6). 
+15. Download/install heidi from this [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6).
+
+![image](https://github.com/user-attachments/assets/ef9a8a61-c973-41be-8a7b-23331bcdd606)
+
+Now we get to the fun part, open OS Ticket in your browser and begin to fill out the installation requirments.
+
+
