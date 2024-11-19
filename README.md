@@ -36,6 +36,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Download and install VC_redist.x86.exe.
 - Download and install MySQL 5.5.62
 
+# OS Ticket Installation Steps
+
+
+
+![image](https://github.com/user-attachments/assets/df01ab9f-44ad-4fa4-b27c-7a5bfe4bc0b1)
+
+
 
 1. Today we are going to give a fast and simple tutorial for configuring OS Ticket our first step is to create a virtual environment in Microsoft Azure. Follow the parameters below to configure your virtual machine.
  
@@ -43,51 +50,34 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Name: osticket-vm
 - Username: labuser
 - Password: osTicketPassword1!
-![image](https://github.com/user-attachments/assets/b4e5798d-c0a1-46b4-ac09-4d7e24d1682b)
 
 
-</p>
-<br />
 
-<p>
-<img src="https://imgur.com/a/nVW6Wmh" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![image](https://github.com/user-attachments/assets/7f7ebc56-e770-4aaf-9a0b-3817761727dc)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+2. Now we remote desktop into the (VM) virtual machine by using the username or password from step 1
+- Username: labuser
+- Password: osTicketPassword1!
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![image](https://github.com/user-attachments/assets/02f017e2-793d-4d9a-9bd9-67c3e4abe687)
+
+3. Once the (VM) boots up head to the control panel settings and look for the programs tab
+
+
+![image](https://github.com/user-attachments/assets/2fd7ea20-3247-4295-93bb-52774d40deb0)
+
+4. Turn Windows features on or off-> Internet Information Services->World Wide Web->Application Development features->CGI
+
+![image](https://github.com/user-attachments/assets/f1cc7a35-aeff-4a9d-878d-d1a20d9a103d)
+
+5. Next, download/install PHP Manager & Rewrite Module 
+
+Here is the [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
+
+
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
