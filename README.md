@@ -63,7 +63,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/user-attachments/assets/02f017e2-793d-4d9a-9bd9-67c3e4abe687)
 
-3. Once the (VM) boots up head to the control panel settings and look for the programs tab
+3. Once the (VM) boots up head to the control panel settings and look for the programs tab Within the tab you will find a list of programs but we are only searching for {IIS & CGI}
 
 
 ![image](https://github.com/user-attachments/assets/2fd7ea20-3247-4295-93bb-52774d40deb0)
@@ -76,7 +76,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 Here is the [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 
+6. Once the download is completed, we will create a folder from the file explorer tab. The new folder will be located in the (C :) drive and named PHP. 
 
+![image](https://github.com/user-attachments/assets/af8132a7-3b01-4d77-a9ba-9eb04cafab93)
+
+![image](https://github.com/user-attachments/assets/c8b7e497-10af-4572-b23a-ab52eb98805a)
 
 
 <p>
