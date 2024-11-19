@@ -36,16 +36,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Download and install VC_redist.x86.exe.
 - Download and install MySQL 5.5.62
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Today we are going to give a fast and simple tutorial for configuring OS Ticket our first step is to create a virtual environment in Microsoft Azure. Follow the parameters below to configure your virtual machine.
-  
+
+1. Today we are going to give a fast and simple tutorial for configuring OS Ticket our first step is to create a virtual environment in Microsoft Azure. Follow the parameters below to configure your virtual machine.
+ 
 - Windows 10, 4 vCPUs
 - Name: osticket-vm
 - Username: labuser
 - Password: osTicketPassword1!
+![image](https://github.com/user-attachments/assets/b4e5798d-c0a1-46b4-ac09-4d7e24d1682b)
+
 
 </p>
 <br />
