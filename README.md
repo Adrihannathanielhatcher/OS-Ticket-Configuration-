@@ -82,35 +82,37 @@ Here is the [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6Ezd
 
 ![image](https://github.com/user-attachments/assets/c8b7e497-10af-4572-b23a-ab52eb98805a)
 
+7. We will unzip PHP 7.3.8 into the “C:\PHP” folder. In non-technical terms, we extract the content from one file to another. 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![image](https://github.com/user-attachments/assets/7ebd3087-c18c-401e-bef2-eac92ef16bb8)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+8. Download & Install VC redist.x86.exe. 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![image](https://github.com/user-attachments/assets/1f5bd3f6-52f7-42dc-bbad-6b622b3276e3)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+9. Install MySQL 5.5.62 (follow the steps provided below)
+
+- Typical Setup
+- Launch Configuration Wizard (after install)
+- Standard Configuration
+
+![image](https://github.com/user-attachments/assets/31415b2b-77e8-4914-8bca-9b0766ebe8f5)
+![image](https://github.com/user-attachments/assets/24498a28-eeef-42b6-9af3-774840a70c54)
+![image](https://github.com/user-attachments/assets/f61fdb68-7f47-4d72-919e-af64147d9827)
+
+Open IIS as an Admin/Register PHP from within IIS, Open PHP Manager->Register new PHP ENTER: C:->PHP->php-cgi.exe. Now restart the server.
+Reload IIS (Open IIS, Stop and Start the server)
+
+![image](https://github.com/user-attachments/assets/f5fdb55f-0f4c-4429-a9f8-3382a495ddc2)
+
+Install osTicket v1.15.8 / unzip osTicket v1.15.8. and copy the “upload” folder into “c:\inetpub\wwwroot” Once completed restart the server.
+![image](https://github.com/user-attachments/assets/bd7b5170-c03a-45a8-a087-29cc263f9127)
+![image](https://github.com/user-attachments/assets/324c8f37-55a4-4605-881d-aa4a062d46d3)
+
+Once the server has been restarted we can begin to download the necessary extension to get OS Ticket to run. Foll0w the below steps in (IIS) to enable the extensions.
+
+IIS > OS Ticket > PHP Manager
+
+
+
