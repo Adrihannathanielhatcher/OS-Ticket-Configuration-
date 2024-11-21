@@ -4,7 +4,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the prerequisites for installing the open-source help desk ticketing system OSTicket.<br />
 
 
 <h2>Video Demonstration</h2>
@@ -27,7 +27,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-- Create Virtual Machine in Azure
+- Create a Virtual Machine in Azure
 - Install/Enable IIS in Windows With CGI
 - Download and install PHP Manager for IIS
 - Download and install the Rewrite Module
@@ -44,7 +44,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 
-1. Today, we are going to give a fast and simple tutorial for configuring OS Ticket. Our first step is to create a virtual environment in Microsoft Azure. Follow the parameters below to configure your virtual machine.
+1. Today, we are going to give a fast and simple tutorial for configuring OSTicket. Our first step is to create a virtual environment in Microsoft Azure. Follow the parameters below to configure your virtual machine.
  
 - Windows 10, 4 vCPUs
 - Name: osticket-vm
@@ -90,7 +90,6 @@ Here is the [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6Ezd
 
 ![image](https://github.com/user-attachments/assets/1f5bd3f6-52f7-42dc-bbad-6b622b3276e3)
 
-
 9. Install MySQL 5.5.62 (follow the steps provided below)
 
 - Typical Setup
@@ -112,9 +111,9 @@ Reload IIS (Open IIS, Stop and Start the server)
 ![image](https://github.com/user-attachments/assets/bd7b5170-c03a-45a8-a087-29cc263f9127)
 ![image](https://github.com/user-attachments/assets/324c8f37-55a4-4605-881d-aa4a062d46d3)
 
-12. Once the server has been restarted, we can download the necessary extension to get OS Ticket to run. Foll0w the below steps in (IIS) to enable the extensions.
+12. Once the server has been restarted, we can download the necessary extension to get the OSTicket to run. Foll0w the below steps in (IIS) to enable the extensions.
 
-IIS > OS Ticket > PHP Manager>Enable extensions: php_opcache.dil, phpImap.dll, phpintl.dll. Refresh the osTicket tab in your Internet Explorer.
+IIS > OSTicket > PHP Manager>Enable extensions: php_opcache.dil, phpImap.dll, phpintl.dll. Refresh the OSTicket tab in your Internet Explorer.
 
 ![image](https://github.com/user-attachments/assets/808f107c-9b32-4556-b36b-7051a08fb53c)
 
@@ -130,10 +129,34 @@ Open properties > security > advanced > disable inheritance > remove all permiss
 
 ![image](https://github.com/user-attachments/assets/cb8795a4-1b4b-4f7d-9903-a9638f7a2ce8)
 
-15. Download/install heidi from this [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6).
+15. Download/install Heidi from this [link](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6).
 
 ![image](https://github.com/user-attachments/assets/ef9a8a61-c973-41be-8a7b-23331bcdd606)
 
-Now we get to the fun part, open OS Ticket in your browser and begin to fill out the installation requirments.
+16. Open OSTicket in your browser and fill out the installation requirements.
+
+![image](https://github.com/user-attachments/assets/4726e94f-b33e-4e63-be16-44d8dfcef4b5)
+
+17. Delete the folder named "setup". It will be located back in File Explorer underneath OSTicket > Setup.
+
+![image](https://github.com/user-attachments/assets/7fbc2b91-546d-411d-89c4-41f5c60ba443)
+
+
+18. Follow the steps below to modify OSticket to read only
+  right-click~ost-config > properties > security > advanced > disable inheritance > modify > read-only. Then select "EVERYONE" and apply.
+
+![image](https://github.com/user-attachments/assets/72408e6d-6d82-4ae4-b1af-6d80dc25a527)
+
+
+19. Next open this link http://localhost/osTicket/scp/login.php and log in to OSTicket with the username and password you created earlier.
+
+20. You have officially configured an OS ticket platform!!!
+
+
+
+
+
+
+
 
 
